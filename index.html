@@ -6,12 +6,13 @@
     <title>Demirval</title>
 
     <!-- Icone da pagina -->
-    <link rel="shortcut icon" href="./images/icone/robos.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/icone/robo.png" type="image/x-icon">
     
     <!-- Estilos CSS -->
-    <link rel="stylesheet" href="./css/font.css">
-    <link rel="stylesheet" href="./css/images.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font.css"> <!-- Estilização da fonte-->
+    <link rel="stylesheet" href="./css/images.css"> <!-- Estilização de imagens -->
+    <link rel="stylesheet" href="./css/style.css"> <!-- Estilização de elementos -->
+    
     <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     
@@ -19,6 +20,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
   </head>
   <body>
@@ -33,35 +38,37 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#videos">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#autores">Autores</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Exemplo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Autores</a>
                 </li>
                 </ul>
           </div>
         </div>
       </nav>
 
+      <!-- Conteúdo principal da página -->
       <main class="bg-latte">
         <section class="container" id="landing">
             <div class="row">
                 <div class="col-md-6">
                     <img src="./images/background/Meu projeto.png" alt="Imagem de um robo em uma plataforma" class="img-landing">
                 </div>
-                <div class="col-md-6 text-xs-center d-flex flex-column align-items-start justify-content-center">
+                <div class="col-md-6 text-xs-center d-flex flex-column align-items-start justify-content-center ">
                     <h1 class="display-1">Demirval</h1>
                     <h2 class="display-3">Robocup FIAP</h2>
                 </div>
             </div>
         </section>
-        <section class="container-fluid my-5 d-flex justify-content-center align-items-center flex-column">
+        <!-- Seção sobre o projeto -->
+        <section id="sobre" class="container-fluid my-5 d-flex justify-content-center align-items-center flex-column">
             <h2 class="title-1 text-center mb-4 p-3">Sobre o projeto</h2>
             <div class="row p-3 container">
                 <div class="col-md-6">
@@ -69,32 +76,62 @@
                     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est id eius, ducimus ex repellat labore cumque beatae tenetur architecto quaerat, dolores mollitia qui quisquam doloribus.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="./images/sobre/1-1.png" alt="Imagem sobre o projeto visto de lado" class="m-2 img-fluid border">
-                    <img src="./images/sobre/1-2.png" alt="Imagem sobre o projeto visto de cima" class="m-2 img-fluid border">
+                    <div class="row">
+                        <div class="col-md-6 my-3">
+                            <img src="./images/sobre/1-1.png" alt="Imagem sobre o projeto visto de lado" class="img-fluid w-100 h-100">
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <img src="./images/sobre/1-2.png" alt="Imagem sobre o projeto visto de cima" class="img-fluid w-100 h-100">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="container-fluid my-5 d-flex justify-content-center align-items-center flex-column">
+        <!-- Seção autores -->
+        <section id="autores" class="container-fluid my-5 d-flex justify-content-center align-items-center flex-column">
             <h2 class="title-1 text-center mb-4 p-3">Autores do projeto</h2>
-            <div class="container mt-2">
-                <div class="row d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row">
                     <div class="col-md-4 d-flex align-items-center justify-content-center flex-column">
                         <img src="./images/autores/felipe.jpeg" alt="Imagem do autor Felipe" class="img-fluid img-author my-3">
-                        <h3>Felipe Cortez</h3>
+                        <a href="https://www.linkedin.com/in/felipe-cortez-179b50194" target="_blank" class="d-flex align-items-center text-decoration-none gap-2 btn-author">
+                            <h3>Felipe Cortez</h3>
+                            <img src="./images/icone/linkedin.png" alt="Icone do LinkedIn" class="img-fluid">
+                        </a>  
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center flex-column">
                         <img src="./images/autores/lucas.jpeg" alt="Imagem do autor Lucas" class="img-fluid img-author my-3">
-                        <h3>Lucas de Lima</h3>
+                        <a href="https://www.linkedin.com/in/lucas-de-lima-bezerra-647602268/" target="_blank" class="d-flex align-items-center text-decoration-none gap-2 btn-author">
+                            <h3>Lucas de Lima</h3>
+                            <img src="./images/icone/linkedin.png" alt="Icone do LinkedIn" class="img-fluid">
+                        </a>  
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center flex-column">
                         <img src="./images/autores/rodolfo.jpeg" alt="Imagem do autor Rodolfo" class="img-fluid img-author my-3">
-                        <h3>Rodolfo Sanches</h3>
+                        <a href="https://www.linkedin.com/in/rodolfo-sanches-cima/" target="_blank" class="d-flex align-items-center text-decoration-none gap-2 btn-author">
+                            <h3>Rodolfo Sanches</h3>
+                            <img src="./images/icone/linkedin.png" alt="Icone do LinkedIn" class="img-fluid">
+                        </a>  
                     </div>
                 </div>
             </div>
         </section>
+        <footer class="container-fluid bg-black">
+            <div class="container p-5">
+                <div class="row text-light">
+                    <div class="col-md-6">
+                        <h4>Demirval</h4>
+                        <h5>Projeto para o Robocup 2023</h5>
+                        <h5>1º SIPG</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>FIAP</h4>
+                        <address>Av. Paulista, 1100</address>
+                    </div>
+                </div>
+            </div>
+        </footer>
       </main>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>

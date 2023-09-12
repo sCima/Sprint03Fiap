@@ -10,7 +10,7 @@
 /* Estilização da cor latte para backgrounds */
 
 .bg-latte {
-    background-image: linear-gradient(to right, var(--color-latte), transparent);
+    background-color: var(--color-latte);
 }
 
 /* Estilização dos títulos h2 */
@@ -22,4 +22,14 @@
     border-radius: 50px;
     border: solid black 2px;
     box-shadow: 0 5px black;
+}
+
+/* Estilização de botões */
+
+.btn-author {
+    color: var(--color-black);
+}
+
+.btn-author:hover {
+    color: blue;
 }
