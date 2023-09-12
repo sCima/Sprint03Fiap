@@ -1,0 +1,25 @@
+/* Declaração das cores como variáveis */
+:root {
+    --color-white: #FFFFFF;
+    --color-latte: #FFF8E8;
+    --color-orange: #E7874B;
+    --color-tomato: #F16251;
+    --color-black: #000000; 
+}
+
+/* Estilização da cor latte para backgrounds */
+
+.bg-latte {
+    background-image: linear-gradient(to right, var(--color-latte), transparent);
+}
+
+/* Estilização dos títulos h2 */
+
+.title-1 {
+    background-color: white;
+    padding: .3em;
+    max-width: 100%;
+    border-radius: 50px;
+    border: solid black 2px;
+    box-shadow: 0 5px black;
+}
