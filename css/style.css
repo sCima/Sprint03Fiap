@@ -38,3 +38,7 @@
 .text-justify {
     text-align: justify;
 }
+
+.navbar-toggler {
+    border: 0 !important;
+}
