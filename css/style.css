@@ -33,3 +33,8 @@
 .btn-author:hover {
     color: blue;
 }
+
+/* Estilização do texto */
+.text-justify {
+    text-align: justify;
+}

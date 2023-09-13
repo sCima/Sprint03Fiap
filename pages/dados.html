@@ -6,12 +6,12 @@
     <title>Demirval</title>
 
     <!-- Icone da pagina -->
-    <link rel="shortcut icon" href="./images/icone/robo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/icone/robo.png" type="image/x-icon">
     
     <!-- Estilos CSS -->
-    <link rel="stylesheet" href="./css/font.css"> <!-- Estilização da fonte-->
-    <link rel="stylesheet" href="./css/images.css"> <!-- Estilização de imagens -->
-    <link rel="stylesheet" href="./css/style.css"> <!-- Estilização de elementos -->
+    <link rel="stylesheet" href="../css/font.css"> <!-- Estilização da fonte-->
+    <link rel="stylesheet" href="../css/images.css"> <!-- Estilização de imagens -->
+    <link rel="stylesheet" href="../css/style.css"> <!-- Estilização de elementos -->
     
     <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -26,28 +26,78 @@
 
   </head>
   <body>
+    <!-- Menu de navegação -->
+    <nav class="navbar navbar-expand-lg bg-latte">
         <div class="container-fluid">
-            <img src="./images/logo/logo-fiap.png" alt="Logo da faculdade FIAP" class="img-logo mx-3">
-            <a class="navbar-brand" href="#" id="demirval">Demirval</a>
+            <img src="../images/logo/logo-fiap.png" alt="Logo da faculdade FIAP" class="img-logo mx-3">
+            <a class="navbar-brand" href="#" id="demirval">Demirval - Investir</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre</a>
+                    <a class="nav-link" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#videos">Videos</a>
+                    <a class="nav-link" href="#">Exemplo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#autores">Autores</a>
+                    <a class="nav-link" href="#">Exemplo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./pages/dados.html">Dados</a>
+                    <a class="nav-link" href="#">Exemplo</a>
                 </li>
-                </ul>
+            </ul>
         </div>
         </div>
     </nav>
+    <main class="bg-latte">
+        <section class="container d-flex justify-content-center flex-column p-5">
+            <h2 class="display-4 my-3">
+                Por que nos escolher?
+            </h2> 
+            <p class="lead text-justify">
+                Nosso produto é diferenciado e inovador. Entregamos eficiência, suporte e agilidade na resolução de problemas. Ainda não está convencido? Tudo bem! Você pode conhecer melhor nosso trabalho ao entrar em contato em <a href="mailto:projetodemirval@gmail.com.br" target="_blank">projetodemirval@gmail.com.br</a>
+            </p>
+            <div class="row my-4">
+                <div class="col-md-6 text-justify">
+                    <h2 class="display-6 my-3">
+                        Acreditamos que nossa empresa é a opção certa para se investir!
+                    </h2>
+                    <p class="lead">
+                        O projeto Demirval é ambicioso e visionário. Projetamos expandir nossos caminhos na área da robótica tanto industrial quanto educacional. É um mercado que está em crescente sem dúvidas. Alunos querem aprender robótica! Realizamos uma pesquisa em uma escola pública com aproximadamente 30 alunos e 30 representantes. 
+                    </p>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="../images/investidores/grafico_robotica.png" alt="Gráficos sobre uma pesquisa feita em uma escola" class="img-fluid object-fit-contain">
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-md-6">
+                    <img src="../images/investidores/grafico_mercado.png" alt="Gráfico com projeção do mercado de robótica no Brasil até 2027" class="h-100 img-fluid border border-black border-1">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="display-6">Robótica no Brasil tem crescimento projetado elevado</h2>
+                    <p class="lead">Segundo pesquisa do site Statista, o Brasil pode chegar até R$1,9 bilhões de valor de mercado até 2027 sendo a maior parte robôs relacionados à serviço como IA, chatbots e robótica educacional.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Rodapé da página -->
+    <footer class="container-fluid bg-black">
+        <div class="container p-5">
+            <div class="row text-light">
+                <div class="col-md-6">
+                    <h4>Demirval</h4>
+                    <h5>Projeto para o Robocup 2023</h5>
+                    <h5>1º SIPG</h5>
+                </div>
+                <div class="col-md-6">
+                    <h4>FIAP</h4>
+                    <address>Av. Paulista, 1100</address>
+                </div>
+            </div>
+        </div>
+    </footer>
   </body>
