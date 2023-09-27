@@ -1,37 +1,42 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Demirval</title>
 
     <!-- Icone da pagina -->
     <link rel="shortcut icon" href="./images/icone/robo.png" type="image/x-icon">
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="./css/font.css"> <!-- Estilização da fonte-->
     <link rel="stylesheet" href="./css/images.css"> <!-- Estilização de imagens -->
     <link rel="stylesheet" href="./css/style.css"> <!-- Estilização de elementos -->
-    
-    
 
-  </head>
-  <body class="bg-latte">
+
+
+</head>
+
+<body class="bg-latte">
 
     <header id="header">
 
         <nav class="navbar navbar-expand-lg">
             <!--menu tamanho-expandido-->
             <div class="container">
-                <a class="navbar-brand" href="#header"> Startup Demirval</a>
+                <a class="navbar-brand d-none d-lg-block" href="#header"> Startup Demirval</a>
+                <a class="navbar-brand d-block d-lg-none" href="#header"> Robocup</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,13 +44,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#sobre">Empresa</a>
+                            <a class="nav-link" href="#empresa">Empresa</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#investir">Investir</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#robo">Robô</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#video">Vídeos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#autores">Autores</a>
@@ -55,156 +63,259 @@
             </div>
         </nav>
     </header>
-        
-        <!-- Conteúdo principal da página -->
-      <main>
+
+    <!-- Conteúdo principal da página -->
+    <main>
         <section class="container-fluid mb-5 d-flex align-items-center justify-content-center min-height" id="landing">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="./images/background/Meu projeto1.png" alt="Imagem de um robo em uma plataforma" class="img-landing">
+                <div class="col-sm-6">
+                    <img src="./images/background/Meu projeto1.png" alt="Imagem de um robo em uma plataforma"
+                        class="img-landing">
                 </div>
-                <div class="col-md-6 text-center d-flex flex-column justify-content-center">
-                    <h1 class="display-2">Robótica simples</h1>
-                    <h2 class="display-6">para mentes complexas</h2>
+                <div class="col-sm-6 text-center d-flex flex-column justify-content-center">
+                    <h1 class="display-2 d-block d-lg-none">Demirval</h1>
+                    <h1 class="display-2 d-none d-lg-block">Robótica simples</h1>
+                    <h2 class="display-6 d-none d-lg-block">para mentes complexas</h2>
                 </div>
             </div>
         </section>
 
         <!-- Seção empresa -->
-        <div class="shape-1 shape-2"></div>
-        <section class="bg-orange text-white py-3">
-        <section class="container p-3 my-3" id="empresa">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2 class="display-4 mb-3">Quem somos?</h2>
-                    <p class="lead">Com foco nas pessoas, construimos muito mais do que robôs! A robótica educacional tem como benefícios:</p>
-                    <ul class="list-unstyled">
-                        <li>
-                            <p>- Desenvolvimento do racíocinio</p>
-                        </li>
-                        <li>
-                            <p>- Metodologia Ativa</p>
-                        </li>
-                        <li>
-                            <p>- Criatividade potencializada</p>
-                        </li>
-                    </ul> 
-                </div>
-                <div class="col-md-6">
-                    <img src="./images/investidores/pexels-alena-darmel-7750869.jpg" alt="Imagem " class="img-fluid">
-                    <p>
-                        Foto de Alena Darmel: <a href="https://www.pexels.com/pt-br/foto/garoto-menino-rapaz-menina-7750869/" target="_blank">Pexels</a> 
-                    </p>
-                </div>
-                 
-            </div>
-        </section>
-
-         <section class="container p-3 my-3" id="investir">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="./images/investidores/pexels-alena-darmel-7750869.jpg" alt="Imagem " class="img-fluid">
-                    <p>
-                        Foto de Alena Darmel: <a href="https://www.pexels.com/pt-br/foto/garoto-menino-rapaz-menina-7750869/" target="_blank">Pexels</a> 
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="display-4 mb-3">Human-centered design</h2>
-                    <p class="lead">Com foco nas pessoas, construimos muito mais do que robôs! A robótica educacional tem como benefícios:</p>
-                    <ul class="list-unstyled">
-                        <li>
-                            <p>- Desenvolvimento do racíocinio</p>
-                        </li>
-                        <li>
-                            <p>- Metodologia Ativa</p>
-                        </li>
-                        <li>
-                            <p>- Criatividade potencializada</p>
-                        </li>
-                    </ul> 
-                    <div class="d-flex container-fluid justify-content-center align-items-center">
-                        <a href="./pages/dados.html" class="btn btn-dark">Quero investir!</a>
+        <section class="container-fluid bg-orange text-white py-3">
+            <section class="container p-3 my-3" id="empresa">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="display-4 mb-3">Quem somos?</h2>
+                        <p class="lead">Somos uma startup de tecnologia onde promovemos a educação aliada à robótica, com uma metodologia didática, tornamos o ensino mais dinâmico e divertido!</p>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p class="lead">- Ensino de qualidade e divertido</p>
+                            </li>
+                            <li>
+                                <p class="lead">- Professores qualificados</p>
+                            </li>
+                            <li>
+                                <p class="lead">- Formação de profissionais</p>
+                            </li>
+                        </ul>
                     </div>
+                    <div class="col-md-6">
+                        <img src="./images/investidores/quemsomos].jpg" alt="Imagem de um braço robótico laranja"
+                            class="img-fluid">
+                        <p>
+                            Foto de <a
+                                href="https://unsplash.com/pt-br/@blenderdesigner_1688?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sufyan</a>
+                            na <a
+                                href="https://unsplash.com/pt-br/fotografias/JUJzjthZnYU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                        </p>
+                    </div>
+
                 </div>
-                 
-            </div>
-        </section>
-    </section>
+            </section>
 
-
-    
-
-    
-        <!-- Seção sobre o projeto -->
-        <!-- <section id="sobre" class="container-fluid my-5 p-3 d-flex justify-content-center align-items-center flex-column">
-            <h2 class="title-1 text-center mb-4 p-3">Sobre o projeto</h2>
-            <div class="row p-3 container">
-                <div class="col-md-6">
-                    <h3>Demirval</h3>
-                    <p class="lead text-justify">Inicialmente inspirado no tanque de DaVinci, o projeto conta com dois motores para movimentação e uma arma ativada por um motor servo motor. Criado para competir para o Robocup, Demirval é diferente dos outros ao ser feito com alumínio e ter um design diferenciado, com sua "frente" levantada para atingir o balão do adversário.</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-12 my-3">
-                            <img src="./images/sobre/visao_externa.png" alt="Imagem sobre o projeto visto de lado" class="img-fluid w-100 h-100 border border-1 border-black">
+            <!-- Seção para investidores -->
+            <section class="container p-3 my-3" id="investir">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./images/investidores/pexels-alena-darmel-7750869.jpg"
+                            alt="Imagem de duas jovens mexendo em equipamentos relacionados à robótica"
+                            class="img-fluid">
+                        <p>
+                            Foto de Alena Darmel: <a
+                                href="https://www.pexels.com/pt-br/foto/garoto-menino-rapaz-menina-7750869/"
+                                target="_blank">Pexels</a>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="display-4 mb-3">Human-centered design</h2>
+                        <p class="lead">Com foco nas pessoas, construimos muito mais do que robôs! A robótica
+                            educacional tem como benefícios:</p>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p class="lead">- Desenvolvimento do racíocinio</p>
+                            </li>
+                            <li>
+                                <p class="lead">- Metodologia Ativa</p>
+                            </li>
+                            <li>
+                                <p class="lead">- Criatividade potencializada</p>
+                            </li>
+                        </ul>
+                        <div class="d-flex container-fluid justify-content-end align-items-end">
+                            <a href="./pages/dados.html" class="btn btn-dark">Quero investir!</a>
                         </div>
                     </div>
+
                 </div>
-            </div>
-        </section> -->
-        <!-- Seção com imagens e vídeos -->
+            </section>
+        </section>
+
+        <!-- Seção do carrossel de imagens -->
         <section id="robo" class="container my-5 p-2 d-flex justify-content-center align-items-center flex-column">
             <h2 class="title-1 p-3">Robô Demirval</h2>
             <p class="lead my-4 text-center">Inicialmente inspirado no tanque de DaVinci, o projeto conta com dois motores para movimentação e uma arma ativada por um servo motor. Criado para competir na Robocup, Demirval é diferente dos outros ao ser feito com alumínio e ter um design único, com sua "frente" levantada para atingir o balão do adversário.</p>
-            <figure>
-                <div class="row">
-                    <div class="col-md-4 d-flex justify-content-center flex-column align-items-center">
-                        <img src="./images/galeria/pngrobo1.png" alt="Foto vista de cima do robô desligado" class="img-fluid">
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center flex-column align-items-center">
-                        <img src="./images/galeria/pngrobotop.png" alt="Foto vista de cima do robô com a arma desativada" class="img-fluid">
-                    </div>
-                    <div class="col-md-4 d-flex justify-content-center flex-column align-items-center">
-                        <img src="./images/galeria/pngrobo2.png" alt="Foto vista de lado do robô desativado" class="img-fluid">
-                    </div>
-                    <div class="col-12 d-flex align-items-center justify-content-center">
-                        <iframe class="ratio-1x1" src="https://www.youtube.com/embed/UtKupmKZvv4
-                        " title="Vídeo de acionamento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/galeria/pngrobo1.png" class="d-block img-fluid ratio-16x9 mx-auto mb-5"
+                        alt="...">
+                    <div class="carousel-caption d-none d-xl-block text-dark">
+                        <h5>Desarmado</h5>
+                        <p>Como o robô fica quando está desarmado, visto de lado.</p>
                     </div>
                 </div>
-            </figure> 
+                <div class="carousel-item">
+                    <img src="./images/galeria/robo-frente.png" class="d-block img-fluid ratio-16x9 mx-auto mb-5"
+                        alt="...">
+                    <div class="carousel-caption d-none d-xl-block text-dark">
+                        <h5>Desarmado</h5>
+                        <p>Como o robô fica quando está desarmado, visto de frente.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/galeria/pngrobotop.png" class="d-block img-fluid ratio-16x9 mx-auto mb-5"
+                        alt="...">
+                    <br>
+                    <div class="carousel-caption d-none d-xl-block text-dark">
+                        <h5>Visão de cima</h5>
+                        <p>Robô Demirval visto de cima.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/galeria/pngrobo2.png" class="d-block img-fluid ratio-16x9 mx-auto mb-5"
+                        alt="...">
+                    <div class="carousel-caption d-none d-xl-block text-dark">
+                        <h5>Armado</h5>
+                        <p>Como o robô fica quando está armado, visto de lado.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/galeria/robo-arma-ativa.png" class="d-block img-fluid ratio-16x9 mx-auto mb-5"
+                        alt="..."> <br>
+                    <div class="carousel-caption d-none d-xl-block text-dark">
+                        <h5>Armado</h5>
+                        <p>Como o robô fica quando está armado, visto de frente.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/galeria/png_hardware.png" class="d-block img-fluid ratio-16x9 mx-auto mb-5"
+                        alt="..."> <br> <br> <br>
+                    <div class="carousel-caption d-none d-xl-block text-dark mt-5">
+                        <h5>Hardware</h5>
+                        <p>Alguns componentes do robô na fase inicial do projeto</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/galeria/robo_inicio.png" class="d-block img-fluid ratio-16x9 mx-auto mb-5"
+                        alt="...">
+                    <div class="carousel-caption d-none d-xl-block text-dark mt-5">
+                        <h5>Protótipo</h5>
+                        <p>Primeira vez que o robô ganhou forma real.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev mx-2" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next mx-2" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+
+
+        <!-- Seção com vídeos -->
+        <section id="video" class="container mt-5 p-2 d-flex justify-content-center align-items-center flex-column">
+            <h2 class="title-1 p-3">Vídeos</h2>
         </section>
-        <!-- Seção para investidores -->
-        
+        <div class="container">
+            <h2 class="my-4 text-start">Vídeo sobre o acionamento da arma</h2>
+        </div>
+        <section class="container mb-5">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <iframe width="1903" height="772" src="https://www.youtube.com/embed/UtKupmKZvv4"
+                        title="Vídeo de acionamento" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>            
+        </section>
+
+        <!-- Video do hardware -->
+        <section class="container mt-5 p-2 d-flex justify-content-center align-items-center flex-column">
+            <h2 class="title-1 p-3">Hardware</h2>
+        </section>
+        <div class="container">
+            <h2 class="my-4 text-start">Vídeo sobre o hardware que compõe o robô</h2>
+        </div>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 d-flex -align-items-center justify-content-center">
+                    <iframe width="1903" height="772" src="https://www.youtube.com/embed/UACIbqw3Iis" title="Projeto do Robô"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
         <!-- Seção autores -->
         <section id="autores" class="container-fluid my-5 d-flex justify-content-center align-items-center flex-column">
             <h2 class="title-1 text-center mb-4 p-3">Autores do projeto</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 d-flex align-items-center justify-content-center flex-column my-3">
-                        <img src="./images/autores/felipe.jpeg" alt="Imagem do autor Felipe" class="img-fluid img-author my-3">
-                        <a href="https://www.linkedin.com/in/felipe-cortez-179b50194" target="_blank" class="d-flex align-items-center text-decoration-none gap-2 btn-author">
+                        <img src="./images/autores/felipe.jpeg" alt="Imagem do autor Felipe"
+                            class="img-fluid img-author my-3">
+                        <a href="https://www.linkedin.com/in/felipe-cortez-179b50194" target="_blank"
+                            class="d-flex align-items-center text-decoration-none gap-2 btn-author">
                             <h3>Felipe Cortez</h3>
                             <img src="./images/icone/linkedin.png" alt="Icone do LinkedIn" class="img-fluid">
-                        </a>  
+                        </a>
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center flex-column my-3">
-                        <img src="./images/autores/lucas.jpeg" alt="Imagem do autor Lucas" class="img-fluid img-author my-3">
-                        <a href="https://www.linkedin.com/in/lucas-de-lima-bezerra-647602268/" target="_blank" class="d-flex align-items-center text-decoration-none gap-2 btn-author">
+                        <img src="./images/autores/lucas.jpeg" alt="Imagem do autor Lucas"
+                            class="img-fluid img-author my-3">
+                        <a href="https://www.linkedin.com/in/lucas-de-lima-bezerra-647602268/" target="_blank"
+                            class="d-flex align-items-center text-decoration-none gap-2 btn-author">
                             <h3>Lucas de Lima</h3>
                             <img src="./images/icone/linkedin.png" alt="Icone do LinkedIn" class="img-fluid">
-                        </a>  
+                        </a>
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center flex-column my-3">
-                        <img src="./images/autores/rodolfo.jpeg" alt="Imagem do autor Rodolfo" class="img-fluid img-author my-3">
-                        <a href="https://www.linkedin.com/in/rodolfo-sanches-cima/" target="_blank" class="d-flex align-items-center text-decoration-none gap-2 btn-author">
+                        <img src="./images/autores/rodolfo.jpeg" alt="Imagem do autor Rodolfo"
+                            class="img-fluid img-author my-3">
+                        <a href="https://www.linkedin.com/in/rodolfo-sanches-cima/" target="_blank"
+                            class="d-flex align-items-center text-decoration-none gap-2 btn-author">
                             <h3>Rodolfo Sanches</h3>
                             <img src="./images/icone/linkedin.png" alt="Icone do LinkedIn" class="img-fluid">
-                        </a>  
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Rodapé da página -->
         <footer class="container-fluid bg-black">
             <div class="container p-5">
@@ -221,9 +332,12 @@
                 </div>
             </div>
         </footer>
-      </main>
+    </main>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
 
-  </body>
+</body>
+
 </html>

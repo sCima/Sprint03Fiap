@@ -8,6 +8,10 @@
     width: 1000px;
 }
 
+.img-carousel {
+    width: 30%;
+}
+
 @media screen and (max-width: 1024px) {
     .img-landing {
         width: 850px;
