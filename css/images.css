@@ -1,11 +1,11 @@
-/* Estilização do logo FIAP */
+/* Estilização do logo FIAP 
 .img-logo {
     width: 10%;
-}
+}*/
 
 /* Estilização da imagem principal */
 .img-landing {
-    width: 1200px;
+    width: 1000px;
 }
 
 @media screen and (max-width: 1024px) {

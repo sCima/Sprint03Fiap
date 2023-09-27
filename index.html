@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="./css/font.css"> <!-- Estilização da fonte-->
@@ -24,46 +24,119 @@
     
 
   </head>
-  <body>
-    <!-- Menu de navegação -->
-    <nav class="navbar navbar-expand-lg bg-latte">
-        <div class="container-fluid">
-            <img src="./images/logo/logo-fiap.png" alt="Logo da faculdade FIAP" class="img-logo mx-3">
-            <a class="navbar-brand" href="#" id="demirval">Demirval</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#investir">Investir</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#autores">Autores</a>
-                </li>
-                </ul>
-          </div>
-        </div>
-      </nav>
+  <body class="bg-latte">
 
-      <!-- Conteúdo principal da página -->
-      <main class="bg-latte">
-        <section class="container-fluid mb-5" id="landing">
+    <header id="header">
+
+        <nav class="navbar navbar-expand-lg">
+            <!--menu tamanho-expandido-->
+            <div class="container">
+                <a class="navbar-brand" href="#header"> Startup Demirval</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#investir">Investir</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#robo">Robô</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#autores">Autores</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        
+        <!-- Conteúdo principal da página -->
+      <main>
+        <section class="container-fluid mb-5 d-flex align-items-center justify-content-center min-height" id="landing">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="./images/background/Meu projeto.png" alt="Imagem de um robo em uma plataforma" class="img-landing">
+                    <img src="./images/background/Meu projeto1.png" alt="Imagem de um robo em uma plataforma" class="img-landing">
                 </div>
-                <div class="col-md-6 text-center d-flex flex-column justify-content-center ">
-                    <h1 class="display-1">Demirval</h1>
-                    <h2 class="display-3">Robocup FIAP</h2>
+                <div class="col-md-6 text-center d-flex flex-column justify-content-center">
+                    <h1 class="display-2">Robótica simples</h1>
+                    <h2 class="display-6">para mentes complexas</h2>
                 </div>
             </div>
         </section>
+
+        <!-- Seção empresa -->
+        <div class="shape-1 shape-2"></div>
+        <section class="bg-orange text-white py-3">
+        <section class="container p-3 my-3" id="empresa">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="display-4 mb-3">Quem somos?</h2>
+                    <p class="lead">Com foco nas pessoas, construimos muito mais do que robôs! A robótica educacional tem como benefícios:</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>- Desenvolvimento do racíocinio</p>
+                        </li>
+                        <li>
+                            <p>- Metodologia Ativa</p>
+                        </li>
+                        <li>
+                            <p>- Criatividade potencializada</p>
+                        </li>
+                    </ul> 
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/investidores/pexels-alena-darmel-7750869.jpg" alt="Imagem " class="img-fluid">
+                    <p>
+                        Foto de Alena Darmel: <a href="https://www.pexels.com/pt-br/foto/garoto-menino-rapaz-menina-7750869/" target="_blank">Pexels</a> 
+                    </p>
+                </div>
+                 
+            </div>
+        </section>
+
+         <section class="container p-3 my-3" id="investir">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/investidores/pexels-alena-darmel-7750869.jpg" alt="Imagem " class="img-fluid">
+                    <p>
+                        Foto de Alena Darmel: <a href="https://www.pexels.com/pt-br/foto/garoto-menino-rapaz-menina-7750869/" target="_blank">Pexels</a> 
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="display-4 mb-3">Human-centered design</h2>
+                    <p class="lead">Com foco nas pessoas, construimos muito mais do que robôs! A robótica educacional tem como benefícios:</p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>- Desenvolvimento do racíocinio</p>
+                        </li>
+                        <li>
+                            <p>- Metodologia Ativa</p>
+                        </li>
+                        <li>
+                            <p>- Criatividade potencializada</p>
+                        </li>
+                    </ul> 
+                    <div class="d-flex container-fluid justify-content-center align-items-center">
+                        <a href="./pages/dados.html" class="btn btn-dark">Quero investir!</a>
+                    </div>
+                </div>
+                 
+            </div>
+        </section>
+    </section>
+
+
+    
+
+    
         <!-- Seção sobre o projeto -->
-        <section id="sobre" class="container-fluid my-5 d-flex justify-content-center align-items-center flex-column">
+        <!-- <section id="sobre" class="container-fluid my-5 p-3 d-flex justify-content-center align-items-center flex-column">
             <h2 class="title-1 text-center mb-4 p-3">Sobre o projeto</h2>
             <div class="row p-3 container">
                 <div class="col-md-6">
@@ -78,71 +151,31 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Seção com imagens e vídeos -->
-        <section class="container my-5 d-flex justify-content-center align-items-center flex-column">
-            <h2 class="title-1 p-3">Galeria</h2>
+        <section id="robo" class="container my-5 p-2 d-flex justify-content-center align-items-center flex-column">
+            <h2 class="title-1 p-3">Robô Demirval</h2>
+            <p class="lead my-4 text-center">Inicialmente inspirado no tanque de DaVinci, o projeto conta com dois motores para movimentação e uma arma ativada por um servo motor. Criado para competir na Robocup, Demirval é diferente dos outros ao ser feito com alumínio e ter um design único, com sua "frente" levantada para atingir o balão do adversário.</p>
             <figure>
-                <div class="row my-5">
-                    <div class="col-md-6 d-flex justify-content-center flex-column align-items-center">
-                        <img src="./images/galeria/Foto de cima.jpeg" alt="Foto vista de cima do robô desligado" class="img-fluid h-75 w-75">
-                        <p class="mt-2">
-                            Desligado
-                        </p>
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center flex-column align-items-center">
+                        <img src="./images/galeria/pngrobo1.png" alt="Foto vista de cima do robô desligado" class="img-fluid">
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center flex-column align-items-center">
-                        <img src="./images/galeria/Foto desativado cima.jpeg" alt="Foto vista de cima do robô com a arma desativada" class="img-fluid h-75 w-75">
-                        <p class="mt-2">
-                            Arma desativada
-                        </p>
+                    <div class="col-md-4 d-flex justify-content-center flex-column align-items-center">
+                        <img src="./images/galeria/pngrobotop.png" alt="Foto vista de cima do robô com a arma desativada" class="img-fluid">
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center flex-column align-items-center">
-                        <img src="./images/galeria/Foto desativado.jpeg" alt="Foto vista de lado do robô desativado" class="img-fluid h-75 w-75">
-                        <p class="mt-2">
-                            Arma desativada
-                        </p>
-                    </div>
-                    <div class="col-md-6 d-flex justify-content-center flex-column align-items-center">
-                        <img src="./images/galeria/Foto vermelha aberto.jpeg" alt="Foto vista de lado do robô ativado" class="img-fluid h-75 w-75">
-                        <p class="mt-2">
-                            Arma ativada
-                        </p>
+                    <div class="col-md-4 d-flex justify-content-center flex-column align-items-center">
+                        <img src="./images/galeria/pngrobo2.png" alt="Foto vista de lado do robô desativado" class="img-fluid">
                     </div>
                     <div class="col-12 d-flex align-items-center justify-content-center">
-                        <iframe width="520" height="415" src="https://youtube.com/embed/mmVZzLFb_qA"></iframe>
+                        <iframe class="ratio-1x1" src="https://www.youtube.com/embed/UtKupmKZvv4
+                        " title="Vídeo de acionamento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-            </figure>
+            </figure> 
         </section>
         <!-- Seção para investidores -->
-        <section class="container my-5" id="investir">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="./images/investidores/pexels-alena-darmel-7750869.jpg" alt="Imagem " class="img-fluid">
-                    <p>
-                        Foto de Alena Darmel: <a href="https://www.pexels.com/pt-br/foto/garoto-menino-rapaz-menina-7750869/" target="_blank">Pexels</a> 
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="display-4 mb-3">Por que investir em robótica?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ipsum quasi iure facilis nemo, distinctio eaque praesentium quas exercitationem nesciunt.</p>
-                    <ul class="list-unstyled">
-                        <li>
-                            <p class="lead">- Crescimento elevado no uso</p>
-                        </li>
-                        <li>
-                            <p class="lead">- Ensino divertido</p>
-                        </li>
-                        <li>
-                            <p class="lead">- Grande participação no mercado</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="d-flex container-fluid justify-content-center align-items-center">
-                <a href="./pages/dados.html" class="btn btn-dark mb-5 ms-auto mx-5 px-3" id="investir">Quero investir!</a>
-            </div>
-        </section>
+        
         <!-- Seção autores -->
         <section id="autores" class="container-fluid my-5 d-flex justify-content-center align-items-center flex-column">
             <h2 class="title-1 text-center mb-4 p-3">Autores do projeto</h2>
@@ -189,6 +222,8 @@
             </div>
         </footer>
       </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
   </body>
 </html>
