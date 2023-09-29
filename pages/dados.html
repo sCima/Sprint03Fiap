@@ -1,106 +1,248 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Demirval</title>
+    <title>Demirval - Dados</title>
 
     <!-- Icone da pagina -->
     <link rel="shortcut icon" href="../images/icone/robo.png" type="image/x-icon">
-    
+
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="../css/font.css"> <!-- Estilização da fonte-->
     <link rel="stylesheet" href="../css/images.css"> <!-- Estilização de imagens -->
     <link rel="stylesheet" href="../css/style.css"> <!-- Estilização de elementos -->
-    
+
     <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     
+    <!-- Icones bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!-- CDN Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  </head>
-  <body>
+</head>
+
+<body class="bg-latte">
     <!-- Menu de navegação -->
-    <nav class="navbar navbar-expand-lg bg-latte">
-        <div class="container-fluid">
-            <img src="../images/logo/logo-fiap.png" alt="Logo da faculdade FIAP" class="img-logo mx-3">
-            <a class="navbar-brand" href="#" id="demirval">Demirval - Investir</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg">
+        <!--menu tamanho-expandido-->
+        <div class="container">
+            <a class="navbar-brand d-none d-lg-block" href="../index.html"> Demirval</a>
+            <a class="navbar-brand d-block d-lg-none" href="../index.html"> Demirval</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Exemplo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Exemplo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Exemplo</a>
-                </li>
-            </ul>
-        </div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./empresa.html">Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#escolas">Presença</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pesquisa">Pesquisa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#socio">Seja Sócio</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+
     <main class="bg-latte">
-        <section class="container d-flex justify-content-center flex-column p-5">
-            <h2 class="display-4 my-3">
-                Por que nos escolher?
-            </h2> 
-            <p class="lead text-justify">
-                Nosso produto é diferenciado e inovador. Entregamos eficiência, suporte e agilidade na resolução de problemas. Ainda não está convencido? Tudo bem! Você pode conhecer melhor nosso trabalho ao entrar em contato em <a href="mailto:projetodemirval@gmail.com.br" target="_blank">projetodemirval@gmail.com.br</a>
-            </p>
-            <div class="row my-4">
-                <div class="col-md-6 text-justify">
-                    <h2 class="display-6 my-3">
-                        Acreditamos que nossa empresa é a opção certa para se investir!
-                    </h2>
-                    <p class="lead">
-                        O projeto Demirval é ambicioso e visionário. Projetamos expandir nossos caminhos na área da robótica tanto industrial quanto educacional. É um mercado que está em crescente sem dúvidas. Alunos querem aprender robótica! Realizamos uma pesquisa em uma escola pública com aproximadamente 30 alunos e 30 representantes. 
+        <section class="container d-flex justify-content-center align-items-center flex-column p-5">
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h1 class="display-1">
+                        Market Share Inexplorado
+                    </h1>
+                    <p class="lead mt-3">
+                        O mercado de robótica no Brasil carece de referências na área, e nós pretendemos ocupar o espaço
+                        que hoje não possui representante
                     </p>
                 </div>
-                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="../images/investidores/grafico_robotica.png" alt="Gráficos sobre uma pesquisa feita em uma escola" class="img-fluid object-fit-contain">
-                </div>
-            </div>
-            <div class="row my-3">
-                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="../images/investidores/grafico_mercado.png" alt="Gráfico com projeção do mercado de robótica no Brasil até 2027" class="img-fluid border border-black border-1">
-                </div>
                 <div class="col-md-6">
-                    <h2 class="display-6">Robótica no Brasil tem crescimento projetado elevado</h2>
-                    <p class="lead">Segundo pesquisa do site Statista, o Brasil pode chegar até R$1,9 bilhões de valor de mercado até 2027 sendo a maior parte robôs relacionados à serviço como IA, chatbots e robótica educacional.</p>
+                    <img src="../images/entenda/entenda1.jpg" alt="Imagem de um computador com graficos na tela"
+                        class="img-fluid">
+                    <p>
+                        Foto de Tiger Lily: <a
+                            href="https://www.pexels.com/pt-br/foto/financa-financeiro-grafico-diagrama-7108045/"
+                            target="_blank">Pexels</a>
+                    </p>
                 </div>
             </div>
         </section>
 
-        <!-- JavaScript do Bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    </main>
-    <!-- Rodapé da página -->
-    <footer class="container-fluid bg-black">
-        <div class="container p-5">
-            <div class="row text-light">
-                <div class="col-md-6">
-                    <h4>Demirval</h4>
-                    <h5>Projeto para o Robocup 2023</h5>
-                    <h5>1º SIPG</h5>
+        <div id="escolas" class="text-center d-flex justify-content-center align-items-center my-3 p-3">
+            <h2 class="display-5 title-1">
+                Presença nas escolas e na indústria
+            </h2>
+        </div>
+
+        <section class="container d-flex justify-content-center align-items-center flex-column p-5">
+            <div class="row my-2">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="../images/entenda/grafico-escolas (1).png"
+                        alt="Gráfico sobre acesso a tecnologia em escolas do Brasil" class="img-fluid">
                 </div>
                 <div class="col-md-6">
-                    <h4>FIAP</h4>
-                    <address>Av. Paulista, 1100</address>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p class="lead">As escolas brasileiras carecem de apoio tecnológico aos alunos</p>
+                        </li>
+                        <li>
+                            <p class="lead">Sem apoio, não há formação de profissionais capacitados</p>
+                        </li>
+                        <li>
+                            <p class="lead">Essa cadeia reflete nos negócios e empregos na Indústria 4.0</p>
+                        </li>
+                        <li>
+                            <p class="lead">Dessa forma, o Brasil entra na era da Indústria 4.0 atrasado</p>
+                        </li>
+                        <li>
+                            <p class="lead">É nosso papel transformar essa cadeia em sua raiz, nas escolas</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </footer>
-  </body>
+        </section>
+
+        <section id="industria" class="container d-flex justify-content-center align-items-center flex-column p-5">
+            <div class="row">
+                <div class="col-md-6 text-end">
+                    <ul class="list-unstyled">
+                        <li>
+                            <p class="lead">Se o problema não é resolvido na raiz, o futuro perde</p>
+                        </li>
+                        <li>
+                            <p class="lead">A Indústria 4.0 no Brasil se torna de pouco destaque </p>
+                        </li>
+                        <li>
+                            <p class="lead">A projeção de crescimento é muito pequena</p>
+                        </li>
+                        <li>
+                            <p class="lead">O país não acompanha lugares como Ásia e Europa</p>
+                        </li>
+                        <li>
+                            <p class="lead">Porém, aplicando o planejamento da Demirval, é possível mudar o cenário em
+                                seu íncio</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="../images/entenda/grafico-mercado.png" alt="Gráfico sobre o mercado de robotica global"
+                        class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <section id="pesquisa" class="container d-flex justify-content-center align-items-center flex-column my-4 p-5">
+            <h3 class="text-center">Uma pesquisa realizada pela Demirval com 30 pais em um colégio de São Paulo revela
+                ainda mais sobre o interesse em robótica no país</h3>
+            <div class="row my-2">
+                <div class="col-md-6 d-flex align-items-center justify-content-center p-3">
+                    <img src="../images/investidores/grafico1.png" alt="Gráfico sobre pesquisa de interesse em robótica"
+                        class="img-fluid">
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center p-3">
+                    <img src="../images/investidores/grafico2.png" alt="Gráfico sobre pesquisa de interesse em robótica"
+                        class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-orange">
+
+            <section id="socio"
+                class="container d-flex justify-content-center align-items-center flex-column mt-4 p-5 text-light">
+
+                <h2 class="mt-3" id="socio">Gostou da idea? Seja meu sócio!</h2>
+                <form name="dado" id="dado" method="get" action="">
+                    <div class="row my-4">
+
+                        <div class="col-md-4 my-2">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control"
+                                placeholder="Ex: Fulano de Tal" minlength="10" maxlength="50" required>
+                        </div>
+
+                        <div class="col-md-4 my-2">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control"
+                                placeholder="Ex: seuemail@email.com" maxlength="50" required>
+                        </div>
+
+                        <div class="col-md-4 my-2">
+                            <label for="tel" class="form-label">Telefone</label>
+                            <input type="tel" id="tel" name="tel" class="form-control" placeholder="Ex: 12934567890"
+                                maxlength="13" required>
+                        </div>
+
+
+                        <div class="col-12 my-2">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem" class="form-control"
+                                placeholder="Ex: Tenho interesse em investir..." required></textarea>
+                        </div>
+
+                        <div class="col-12 my-3 d-flex justify-content-center">
+                            <button type="submit" id="btn-formulario" class="btn btn-dark">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </section>
+
+
+        <footer class="container-fluid bg-black">
+            <div class="container p-5">
+                <div class="row text-light">
+                    <div class="col-md-4">
+                        <h4>Demirval</h4>
+                        <h5>Projeto para o Robocup 2023</h5>
+                        <h5>1º SIPG</h5>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>FIAP</h4>
+                        <address>Av. Paulista, 1100</address>
+                    </div>
+                    <div class="col-md-4">
+                        <h5> <img src="../images/entenda/instagram (5).png" alt="Icone do Instagram"
+                                class="img-fluid me-2"> @Demirval</h5>
+                        <h5> <img src="../images/entenda/icons8-whatsapp-24.png" alt="Icone do whatsapp"
+                                class="img-fluid me-2"> (11)97153-3392</h5>
+                        <h5> <img src="../images/entenda/mail.png" alt="Icone do Email" class="img-fluid me-2">
+                            contato@demirval.com.br</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <button onclick="voltaTopo()" id="topo" title="Voltar ao topo"><i class="bi bi-arrow-up"></i></button>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="../js/botaoTopo.js"></script>
+    <script src="../js/enviaForm.js"></script>
+</body>
