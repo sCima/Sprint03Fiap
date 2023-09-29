@@ -50,10 +50,16 @@
                             <a class="nav-link" href="#empresa">Empresa</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#robocup">RoboCup</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#robo">Robô</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#video">Vídeos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hardware">Hardware</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#autores">Autores</a>
@@ -86,7 +92,8 @@
                 <div class="row">
                     <div class="col-md-6 text-end">
                         <h2 class="display-4 mb-3">Quem somos?</h2>
-                        <p class="lead">Somos uma startup de tecnologia que promovemos a educação aliada à robótica e com uma metodologia didática, tornamos o ensino mais dinâmico e divertido com:</p>
+                        <p class="lead">Somos uma startup de tecnologia que promovemos a educação aliada à robótica e
+                            com uma metodologia didática, tornamos o ensino mais dinâmico e divertido com:</p>
                         <ul class="list-unstyled">
                             <li>
                                 <p class="lead">Tecnologia Disruptiva</p>
@@ -152,20 +159,24 @@
 
         <!-- Seção sobre o robocup -->
         <section class="container my-5 d-flex flex-column align-items-center justify-content-center p-3" id="robocup">
-            <h2 class="title-1 p-3 mb-5">Robocup</h2>
+            <h2 class="title-1 p-3 mb-5">RoboCup</h2>
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <img src="./images/galeria/robocup.jpeg" alt="Imagem do Demirval no Robocup" class="img-fluid">
                 </div>
-                <div class="col-md-6 d-flex flex-column text-justify justify-content-center p-4">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-end p-4">
                     <p class="lead">
-                        O Robocup é uma competição feita pela FIAP, onde os alunos montam grupos para trabalharem em conjunto no desenvolvimento de um robô articulado sobre rodas e controlado por bluetooth (acionado por celular), capaz de transportar uma bexiga e munido de uma arma. Tudo isso deve será controlado por um arduino mega.
+                        A RoboCup é uma competição organizada pela FIAP, na qual os alunos se reúnem para desenvolver um
+                        robô capaz de carregar uma bexiga, se movimentar e acionar uma arma, controlado por bluetooth.
                     </p>
                     <p class="lead">
-                        Juntando todas as classes do primeiro ano do curso sistemas de informação, os alunos se enfrentarão numa disputa que será vencedor o robô que conseguir manter sua bexiga intacta, estourando o balão de todos os seus adversários.
+                        Juntando todas as classes do primeiro ano do curso de sistemas de informação, os alunos se
+                        enfrentam numa disputa com o objetivo de manter sua bexiga intacta e/ou
+                        estourar o balão de seus adversários, seguindo as regras da competição, é claro.
                     </p>
                     <p class="lead">
-                        Como toda competição, o Robocup também tem regras que são baseadas na <em>Robot Fightning League Standard Ruleset</em> e estas regras envolvem limitações no tamanho, peso, material na confecção e altura. Também inclui regras específicas da competição, como tempo de enfrentamento e uso de controle remoto pelo celular sem fio.
+                        Os robôs que passarem da primeira fase de confrontos, se enfrentam no NEXT, evento organizado
+                        também pela FIAP, com o objetivo de promover a tecnologia e os projetos dos alunos.
                     </p>
                 </div>
             </div>
@@ -174,12 +185,9 @@
         <!-- Seção do carrossel de imagens -->
         <section id="robo" class="container my-5 p-2 d-flex justify-content-center align-items-center flex-column">
             <h2 class="title-1 p-3">Robô Demirval</h2>
-            <p class="lead my-4 text-center">Inicialmente inspirado no tanque de DaVinci, o projeto conta com dois
-                motores para movimentação e uma arma ativada por um servo motor. Criado para competir na Robocup,
-                Demirval é diferente dos outros ao ser feito com alumínio e ter um design único, com sua "frente"
-                levantada para atingir o balão do adversário.</p>
+            <p class="lead my-4 text-center">O projeto do robô Demirval trás a vida o modelo desenhado por DaVinci no seu protótipo de tanque que nunca viu a luz do dia. Para se adequar às regras da RoboCup, é claro, nosso projeto trás alterações no objeto de ataque então proposto pelo inventor italiano. Dessa forma, Demirval é único e leva para a batalha a originalidade em seu modelo.</p>
         </section>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -271,69 +279,137 @@
         <!-- Seção com vídeos -->
         <section class="container mb-5" id="video">
             <div class="row">
-                <div class="col-12 col-xl-6 d-flex align-items-center justify-content-center mb-3">
-                    <iframe width="1903" height="772" src="https://www.youtube.com/embed/T1ojQ6-v_eE"
+
+                <div class="col-12 col-xl-6 d-flex align-items-center justify-content-center p-3">
+                    <div class="ratio ratio-16x9">
+                        <iframe class="img-fluid" src="https://www.youtube.com/embed/T1ojQ6-v_eE"
                         title="Movimentação do Robô Demirval" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
+                    </div>
                 </div>
-                <div class="col-12 col-xl-6 d-flex align-items-center justify-content-center">
-                    <iframe width="1903" height="772" src="https://www.youtube.com/embed/UACIbqw3Iis"
+                <div class="col-12 col-xl-6 d-flex align-items-center justify-content-center p-3">
+                    <div class="ratio ratio-16x9">
+                        <iframe class="img-fluid" src="https://www.youtube.com/embed/UACIbqw3Iis"
                         title="Projeto do Robô" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
+                    </div>
                 </div>
+                
             </div>
+            
         </section>
 
         <!-- Seção sobre o hardware -->
-        <section class="container my-5">
+        <section id="hardware" class="container my-5">
+            <h2 class="text-center">Hardware</h2>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Movimentação
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      Para a movimentação, foram usados dois motores e uma "rodinha boba" com tração traseira, permitindo que o robô realizasse mais manobras e fosse mais ágil, custando um pouco o controle em linha reta.
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Cérebro
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Todas as funções do robô, do movimento à arma e os LEDs, são controladas pelo Arduino Mega,
+                            e é através da Arduino IDE que programamos essas funções.
+                            <div class="col-md-12 d-flex justify-content-center align-items-center">
+                                <img class="img-fluid" src="./images/galeria/arduino.png" alt="Rodinha do robô">
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Arma
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <p>
-                            Nossa arma era diferente, uma porta que se abria de um dos lados do robô e furava o balão adversário.
-                        </p>
-                        <p>
-                            Foi utilizado um servo motor conectado ao arduíno, onde ele girava até 110º graus para posicionamento da arma.
-                        </p>
-                        <p>
-                            Como arma, nós utilizamos agulhas que foram na parte externa mais extrema da porta para que atingisse a altura ideal e estourasse o balão adversário.
-                        </p>
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Movimentação
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Para a movimentação, foram usados dois motores e suas respectivas rodinhas em conjunto com
+                            uma rodinha boba. Os motores foram conectados ao shield de motor, esse que está concetado ao
+                            Arduino Mega. O conjunto todo é alimentado por um soquete de 6 pilhas AA.
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/galeria/rodinha.png" alt="Rodinha do robô">
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/galeria/shield.png"
+                                        alt="Shield de motor do robô">
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/galeria/soquete.png"
+                                        alt="Shield de motor do robô">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Iluminação
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Foi usado uma fita LED com protoboard e resistores, conectados ao arduíno e com iluminação customizada através do código, onde verde representava o robô com a arma desativada e vermelho com a arma ativada 
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Arma
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Nossa arma é diferente: uma porta que se abre de um dos lados do robô e fura o balão
+                            adversário com agulhas presas na sua extremidade. Foi utilizado um apoio preso a um servo
+                            motor programado para girar 110° e posicionar as agulhas na direção e altura certas. Quando
+                            o sensor é ativado, o circuito é acionado e se mantém ativo por 15s.
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/galeria/sensor.png" alt="Sensor do robô">
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/galeria/servo-motor.png"
+                                        alt="Servo motor do robô">
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/galeria/agulha.png"
+                                        alt="Agulhas utilizadas no robô">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Iluminação
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Foi usado uma fita LED conectada a uma placa protoboard com conexões entre resistores, e a
+                            placa foi conectada ao Arduino. O LED foi customizado através de códigos na Arduino IDE:
+                            verde representa o robô com a arma desativada e
+                            vermelho com a arma ativada.
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/galeria/led.png"
+                                        alt="Fita LED utilizada no robô">
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/galeria/protoboard.png"
+                                        alt="Placa protoboard utilizada no robô">
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="./images/galeria/resistor.png"
+                                        alt="Resistores utilizados na protoboard">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Seção autores -->
@@ -343,18 +419,20 @@
                 <div class="row">
                     <div class="col-md-4 d-flex align-items-center justify-content-center flex-column my-3">
                         <div class="card">
-                            <img src="./images/autores/felipe.jpeg" class="card-img-top img-author mx-auto mt-2" alt="Imagem do autor Felipe">
-                            <div class="card-body">
+                            <img src="./images/autores/felipe.jpeg" class="card-img-top img-author mx-auto mt-2"
+                                alt="Imagem do autor Felipe">
+                            <div class="card-body text-center">
                                 <h5 class="card-title">Felipe Cortez</h5>
                                 <a href="https://www.linkedin.com/in/felipe-cortez-179b50194"
                                     class="btn btn-primary">LinkedIn</a>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center flex-column my-3">
                         <div class="card">
-                            <img src="./images/autores/lucas.jpeg" class="card-img-top img-author mx-auto mt-2" alt="Imagem do autor Lucas">
-                            <div class="card-body">
+                            <img src="./images/autores/lucas.jpeg" class="card-img-top img-author mx-auto mt-2"
+                                alt="Imagem do autor Lucas">
+                            <div class="card-body text-center">
                                 <h5 class="card-title">Lucas de Lima</h5>
                                 <a href="https://www.linkedin.com/in/lucas-de-lima-bezerra-647602268/"
                                     class="btn btn-primary">LinkedIn</a>
@@ -363,8 +441,9 @@
                     </div>
                     <div class="col-md-4 d-flex align-items-center justify-content-center flex-column my-3">
                         <div class="card">
-                            <img src="./images/autores/rodolfo.jpeg" class="card-img-top img-author mx-auto mt-2" alt="Imagem do autor Rodolfo">
-                            <div class="card-body">
+                            <img src="./images/autores/rodolfo.jpeg" class="card-img-top img-author mx-auto mt-2"
+                                alt="Imagem do autor Rodolfo">
+                            <div class="card-body text-center">
                                 <h5 class="card-title">Rodolfo Sanches</h5>
                                 <a href="https://www.linkedin.com/in/rodolfo-sanches-cima/"
                                     class="btn btn-primary">LinkedIn</a>
@@ -389,11 +468,11 @@
                         <address>Av. Paulista, 1100</address>
                     </div>
                     <div class="col-md-4">
-                        <h5> <img src="./images/entenda/instagram (5).png" alt="Icone do Instagram"
+                        <h5> <img src="./images/icone/instagram (5).png" alt="Icone do Instagram"
                                 class="img-fluid me-2"> @Demirval</h5>
-                        <h5> <img src="./images/entenda/icons8-whatsapp-24.png" alt="Icone do whatsapp"
+                        <h5> <img src="./images/icone/icons8-whatsapp-24.png" alt="Icone do whatsapp"
                                 class="img-fluid me-2"> (11)97153-3392</h5>
-                        <h5> <img src="./images/entenda/mail.png" alt="Icone do Email" class="img-fluid me-2">
+                        <h5> <img src="./images/icone/mail.png" alt="Icone do Email" class="img-fluid me-2">
                             contato@demirval.com.br</h5>
                     </div>
                 </div>
