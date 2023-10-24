@@ -1,0 +1,17 @@
+main {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #FFF8E8;
+}
+
+form {
+    background-color: #E7874B;
+}
+
+.text-tomato {
+    color: #F16251;
+}
+
+.m-negative {
+    margin-top: -200px;
+}
